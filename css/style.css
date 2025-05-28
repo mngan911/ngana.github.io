@@ -78,3 +78,23 @@ footer {
   color: #fff;
   margin-top: 2rem;
 }
+
+.page-header {
+  background: #008e6e;
+  color: white;
+  padding: 60px 50px;
+  text-align: center;
+}
+
+.assignment-content {
+  padding: 50px;
+  line-height: 1.7;
+}
+.assignment-content h2 {
+  color: #008e6e;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.assignment-content p {
+  margin-bottom: 20px;
+}
