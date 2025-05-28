@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+section {
+  margin-bottom: 3rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 1rem;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+ul li a {
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #222;
+  color: #fff;
+  margin-top: 2rem;
+}
+
+.page-header {
+  background: #008e6e;
+  color: white;
+  padding: 60px 50px;
+  text-align: center;
+}
+
+.assignment-content {
+  padding: 50px;
+  line-height: 1.7;
+}
+.assignment-content h2 {
+  color: #008e6e;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.assignment-content p {
+  margin-bottom: 20px;
+}
