@@ -3,32 +3,47 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Page</title>
+  <title>Usagi's homepage</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <header>
-    <h1>My Portfolio</h1>
+    <h1>Usagi's homepage</h1>
+    <div class="logo">MY <span>PORTFOLIO</span></div>
     <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
+      <ul>
+      <li><a href="#about">About</a></li>
+      <li>a href="#contact">Contact</a></li>
+      </ul>  
     </nav>
+    <a href="#projects" class="cta">Projects</a>
   </header>
 
-  <main>
-    <!-- About Me Section -->
-    <section id="about">
-      <img src="assets/images/me.png" alt="Your photo" class="profile-pic" />
-        
-      <h2><!-- (Ana) Minh Ngan Nguyen --></h2>
-      <h3><!-- Graduate Student at Sapienza Universita di Roma --></h3>
-      <p><!-- Life-long learner --></p>
-      <p><!-- I know that I know nothing --></p>
+   <section class="hero">
+     <div class="hero-text">
+       <h1>Hello, I'm <span><!-- (Ana) Minh Ngan Nguyen --></span></h1>
+        <p>I showcase my personal and professional projects here.</p>
+        <a href="#projects" class="btn">See My Work</a>
+      </div>
+      <div class="hero-img">
+        <img src="9d7c394b-51df-4ea5-884b-62c929075d6a.png" alt="Portfolio Hero Image" />
+      </div>
     </section>
 
-    <!-- Projects Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <img src="<!-- Your image file path here -->" alt="Your photo" />
+      <div>
+        <h3><!-- Graduate Student at Sapienza --></h3>
+        <h4><!-- Macroeconomics and Finance major --></h4>
+        <p><!-- Working for a Fintech company in Vietnam --></p>
+        <p><!-- Life-long learner, investing enthusiast --></p>
+      </div>
+    </div>
+  </section>
+  
     <section id="projects">
       <h2>Projects</h2>
       <ul>
@@ -39,7 +54,6 @@
       </ul>
     </section>
 
-    <!-- Contact Info Section -->
     <section id="contact">
       <h2>Contact</h2>
       <p>Email: <!-- ngannm09.rec@gmail.com --></p>
