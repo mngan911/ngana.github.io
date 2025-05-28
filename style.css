@@ -11,11 +11,46 @@ body {
   color: #333;
 }
 
-header {
-  background-color: #222;
-  color: #fff;
-  padding: 1rem 0;
-  text-align: center;
+/* Header styling */
+.site-header {
+  background-color: #2f343a;
+  color: white;
+  padding: 0.5rem 0;
+  font-family: Arial, sans-serif;
+}
+
+.site-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.site-header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.site-header .nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.site-header .nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.site-header .nav ul li a:hover {
+  text-decoration: underline;
 }
 
 nav a {
